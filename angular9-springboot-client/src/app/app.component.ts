@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = "angular9-springboot2-CRUD";
+  title = "EMS CRUD with angular9(Client) & springboot2(Server)";
 }

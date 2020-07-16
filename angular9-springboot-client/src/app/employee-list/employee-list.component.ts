@@ -13,7 +13,7 @@ export class EmployeeListComponent implements OnInit {
   employees: Observable<Employee[]>;
   constructor(
     private employeeService: EmployeeService,
-    private router: Router
+    private router: Router,
   ) {}
 
   ngOnInit(): void {
@@ -30,7 +30,7 @@ export class EmployeeListComponent implements OnInit {
         console.log(data);
         this.reloadData();
       },
-      (error) => console.log(error)
+      (error) => console.log(error),
     );
   }
 
